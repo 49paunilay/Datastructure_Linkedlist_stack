@@ -7,7 +7,7 @@ int rear=-1;
 
 //isEmpty() is used to find if the queue is empty or not
 int isEmpty(){
-	if(front==-1 && rear==-1 || front>rear){
+	if(front==-1 && rear==-1){
 		return 1;
 	}
 	else{
